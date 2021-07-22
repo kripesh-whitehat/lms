@@ -1,0 +1,17 @@
+.spend-by-week {
+  display: flex;
+  flex-direction: column;
+}
+
+.sum {
+  font-size: 1.7em;
+  align-self: flex-end;
+  margin-top: -1.5em;
+  margin-right: .5em;
+  margin-bottom: 1.5em;
+}
+
+.subtext {
+  margin: .5em;
+  color: #ED561B;
+}

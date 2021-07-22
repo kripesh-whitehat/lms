@@ -1,0 +1,28 @@
+.inventory-counts-container {
+    overflow: hidden
+}
+
+.inventory-counts-table-container, .inventory-counts-invoices-table {
+    overflow: hidden;
+    height: 300px
+}
+
+.title {
+    text-align: center
+}
+
+.title h3 {
+    margin-top: 0
+}
+
+@media only screen and (max-height: 775px) {
+    .inventory-counts-container {
+        overflow: scroll
+    }
+}
+
+@media only screen and (min-height: 950px) {
+    .inventory-counts-table-container, .inventory-counts-invoices-table {
+        height: 350px
+    }
+}

@@ -1,0 +1,22 @@
+.ReactTable {
+  flex: 1;
+  height: 80%;
+  margin: 1em;
+}
+
+.rt-td {
+  /* text-align: right; */
+}
+
+.-filters {
+  height: 3em;
+}
+
+@media print {
+  .ReactTable {
+    flex: 1;
+    height: 80%;
+    width: 850px;
+    margin: 1em;
+  }
+}

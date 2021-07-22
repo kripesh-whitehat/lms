@@ -1,0 +1,31 @@
+.selector-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  max-height: 95%;
+  padding-bottom: 3em;
+}
+
+#close-selector-btn {
+  cursor: pointer;
+  align-self: flex-end;
+  font-size: 2.5em;
+  padding: .75em;
+}
+
+.selector-items-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-right: 5em;
+  padding-left: 5em;
+  overflow-y: scroll;
+  flex-wrap: wrap;
+  margin-top: 3em;
+}
+
+.selector-title {
+  font-size: 2em;
+  color: #484848
+}

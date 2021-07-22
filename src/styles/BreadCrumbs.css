@@ -1,0 +1,32 @@
+#bread-crumbs-container {
+  display: flex;
+  flex-direction: row;
+  margin-left: 1.5em;
+  height: 2.4em;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.bread-crumb {
+  display: flex;
+  flex-direction: row;
+}
+
+.bread-crumb-text {
+  display: flex;
+  height: 3em;
+  overflow-y: hidden;
+  font-size: .9em;
+}
+
+.bread-crumb-arrow {
+  display: flex;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+#active {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}

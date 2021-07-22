@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "baseUrl": "src",
+    "paths": {
+      "components/*": ["components/*"],
+      "styles/*": ["styles/*"],
+      "helpers/*": ["helpers/*"],
+      "actions/*": ["actions/*"],
+      "pages/*": ["pages/*"],
+      "utils/*": ["utils/*"],
+      "assets/*": ["assets/*"],
+      "zaruDashboard/*": ["components/zaruDashboard/*"]
+    },
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "skipLibCheck": true,
+    "strict": false,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve"
+  },
+  "include": ["**/*.js", "**/*.jsx"],
+  "exclude": ["node_modules"]
+}

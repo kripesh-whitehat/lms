@@ -1,0 +1,13 @@
+.chart-wrapper {
+  display: flex;
+  height: 100%;
+  padding: 10%;
+  padding-top: 5%;
+  justify-content: center;
+  align-items: center;
+}
+
+.chart-wrapper-message {
+  font-size: 2.5em;
+  text-align: center;
+}

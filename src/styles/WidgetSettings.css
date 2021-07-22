@@ -1,0 +1,71 @@
+.widget-settings-container {
+  position: absolute;
+  top: 0;
+  margin-top: 4em;
+  margin-right: 2em;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: white;
+  align-items: flex-start;
+  min-height: 7em;
+  z-index: 1;
+  padding: 2em;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 6px, rgba(0, 0, 0, 0.12) 0px 1px 4px;
+  font-size: 1.2em;
+}
+
+.widget-settings-title {
+  font-size: 1.6em;
+  margin-bottom: .7em;
+}
+
+.widget-settings-input {
+  border: none;
+  border-bottom: .05em solid black;
+  outline: none;
+  color: green;
+  width: 7em;
+  margin-right: 5em;
+}
+
+.widget-settings-input-group{
+  margin: .5em;
+}
+
+.widget-settings-input:focus {
+  color: orange;
+  border-bottom: .1em solid orange;
+}
+
+.settings-buttons-container {
+  align-self: flex-end;
+  display: flex;
+  flex-direction: row;
+}
+
+.settings-buttons {
+  margin: .3em;
+}
+
+
+#delete-widget-icon {
+  font-size: 1.3em;
+}
+
+#delete-widget-icon:hover {
+  color: red;
+}
+
+#settings-pdf-icon {
+  font-size: 1.3em;
+}
+
+#settings-pdf-icon:hover {
+  color: blue;
+}
+
+.widget-settings-label {
+
+}

@@ -1,0 +1,33 @@
+.location-picker-container {
+  margin-top: 2em;
+  margin-left: 0.7em;
+  font-size: .85em;
+    overflow-x: scroll;
+}
+
+.location-picker-title {
+  margin-bottom: 1em;
+  font-size: 1.7em;
+}
+
+.location-checkbox-container {
+  margin-left: 2em;
+  white-space: nowrap;
+}
+
+.location-checkbox-label {
+  margin-left: 0.5em;
+}
+
+.location-checkbox {
+
+}
+
+.region-checkbox-label {
+  margin-left: 0.5em;
+  font-size: 1.2em;
+}
+
+.region-checkbox-container {
+  white-space: nowrap;
+}

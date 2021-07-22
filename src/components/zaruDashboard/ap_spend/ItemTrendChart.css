@@ -1,0 +1,11 @@
+p.disclaimer {
+    font-size: smaller;
+    font-style: italic;
+    text-align: center;
+}
+
+.ap-spend-download-csv-container {
+    float: right;
+    margin-right: 1em;
+    margin-top: 0.5em;
+}

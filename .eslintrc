@@ -1,0 +1,58 @@
+{
+  "extends": ["@imaginary-cloud/react"],
+  "plugins": ["unused-imports"],
+  "parserOptions": {
+    "ecmaVersion": 2020
+  },
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "moduleDirectory": ["node_modules", "src", "src/components"]
+      }
+    }
+  },
+  "globals": {
+    "browser": true,
+    "fetch": true,
+    "serviceworker": true,
+    "describe": true,
+    "it": true,
+    "expect": true,
+    "document": true
+  },
+  "env": {
+    "node": true,
+    "es6": true
+  },
+  "rules": {
+    "react/prop-types": 0,
+    "react/react-in-jsx-scope": 0,
+    "no-unused-vars": "off",
+    "unused-imports/no-unused-imports": "error",
+    "unused-imports/no-unused-vars": [
+      "warn",
+      {
+        "vars": "all",
+        "varsIgnorePattern": "^_",
+        "args": "after-used",
+        "argsIgnorePattern": "^_"
+      }
+    ],
+    "no-param-reassign": [
+      "error",
+      {
+        "props": true,
+        "ignorePropertyModificationsFor": ["state"]
+      }
+    ],
+    "prettier/prettier": [
+      "error",
+      {
+        "endOfLine": "auto"
+      }
+    ],
+    "no-console": "off",
+    "import/no-extraneous-dependencies": ["off"],
+    "camelcase": ["error", { "allow": ["^UNSAFE_"] }]
+  }
+}

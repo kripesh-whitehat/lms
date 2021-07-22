@@ -1,0 +1,20 @@
+.dashboard-create-form {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.dashboard-create-label {
+  display: flex;
+  font-size: 1.7em;
+  margin-bottom: 0.5em;
+  align-self: center;
+}
+
+#dashboard-create-input{
+  display: flex;
+  align-self: center;
+   margin: 0px;
+}

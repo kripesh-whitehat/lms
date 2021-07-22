@@ -1,0 +1,11 @@
+.ap-spend-table {
+    overflow: hidden
+}
+
+.ap-spend-table .title {
+    text-align: center
+}
+
+.ap-spend-table .title h3 {
+    margin-top: 0
+}

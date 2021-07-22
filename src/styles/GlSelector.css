@@ -1,0 +1,8 @@
+.gl-container {
+  display: flex;
+  flex-direction: column;
+  width: 10em;
+  margin: 1em;
+  margin-left: 1.2em;
+  margin-top: .3em;
+}

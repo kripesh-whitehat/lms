@@ -1,0 +1,11 @@
+.inventory-counts-table-container button {
+  margin-left: 1em
+}
+
+.inventory-counts-table-container .title {
+  text-align: center
+}
+
+.inventory-counts-table-container .title h3 {
+  margin-top: 0
+}

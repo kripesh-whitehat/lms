@@ -1,0 +1,25 @@
+.stats-container{
+  display: flex;
+  justify-content: space-around;
+  /*padding-top: 2em;*/
+  /* padding-left: 0em;
+  padding-right: 10em; */
+}
+
+.see-all-stats {
+  margin-top: 2em;
+  margin-left: 3em;
+}
+
+.stat-group {
+
+}
+
+.stat-label {
+  font-size: 1em;
+}
+
+.stat {
+  font-size: 1.5em;
+  color: DarkSlateGrey;
+}

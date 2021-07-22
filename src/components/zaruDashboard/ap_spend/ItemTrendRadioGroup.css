@@ -1,0 +1,13 @@
+.item-trend-radio-container {
+    margin: 1em 2.5em;
+    text-align: center
+}
+
+.item-trend-radio-container .item-radio-group {
+    display: inline-block
+}
+
+.item-trend-radio-container .item-radio-group label {
+    margin-left: 1em;
+    margin-right: 1em
+}

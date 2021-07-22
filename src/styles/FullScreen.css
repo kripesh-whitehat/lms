@@ -1,0 +1,34 @@
+.backdrop {
+  position: absolute;
+  top: 0;
+  /* bottom: 0;
+  left: 0;
+  right: 0; */
+  max-width: 100%;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 1000;
+  display: block;
+  opacity: 1;
+}
+
+.backdrop-sidebar-open {
+  width: calc(100% - 18em);
+}
+
+.dialog {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow-x: scroll;
+  background-color: rgba(0, 0, 0, 0);
+  margin: 3em;
+  width: 91%;
+  height: 90%;
+}
+
+.fullscreen-close-btn {
+  width: 10em;
+  align-self: flex-end;
+}

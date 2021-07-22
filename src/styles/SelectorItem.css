@@ -1,0 +1,24 @@
+.selector-item {
+  display: flex;
+  margin: 1em;
+  height: 10em;
+  width: 12em;
+  margin: 0;
+}
+
+.selector-item-container {
+  display: flex;
+  margin: 1em;
+  padding: .3em;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2em;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 6px, rgba(0, 0, 0, 0.12) 0px 1px 4px;
+}
+
+.selector-item-title {
+  display: flex;
+  flex: 1;
+}

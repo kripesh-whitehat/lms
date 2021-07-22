@@ -1,0 +1,17 @@
+.invoice-date-toggle {
+  margin-left: 0.5em;
+}
+
+.invoice-date-toggle-input {
+  display: inline-block;
+}
+
+.invoice-date-toggle-input:not(:first-child) {
+  margin-left: 1em;
+}
+
+.invoice-date-toggle-input label {
+  margin-left: 0.4em;
+  display: inline-block;
+  font-size: smaller;
+}

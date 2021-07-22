@@ -1,0 +1,7 @@
+.num-vendors-container {
+  display: flex;
+  flex-direction: column;
+  width: 10em;
+  margin: 1em;
+  margin-top: .3em;
+}

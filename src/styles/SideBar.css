@@ -1,0 +1,47 @@
+.sidebar-container {
+  padding: 1em;
+  background-color: white;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  /* height: 100vh; */
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+  overflow-y: scroll;
+  overflow-x: scroll;
+}
+
+.sidebar-content {
+  margin-top: 3em;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar-toggle {
+  align-self: flex-start;
+}
+
+.sidebar-toggle:hover {
+  cursor: pointer;
+}
+
+.sidebar-toggle:hover {
+  cursor: pointer;
+  display: flex;
+}
+
+.sidebar-open {
+  width: 18em;
+}
+
+.sidebar-collapsed {
+  width: 3em;
+}
+
+.sidebar-collapsed .sidebar-content {
+  display: none;
+}

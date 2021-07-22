@@ -1,0 +1,7 @@
+.static-dashboard {
+  display: flex;
+}
+
+.static-main {
+  flex: 8;
+}

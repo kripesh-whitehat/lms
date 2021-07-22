@@ -1,0 +1,28 @@
+.mock-iframe-container {
+  display: block;
+  height: 100vh;
+  width: 100%;
+}
+
+.mock-topbar {
+  height: 10em;
+  width: 100%;
+  background-color: purple;
+}
+
+.mock-sidebar {
+  height: 100%;
+  width: 25em;
+  background-color: purple
+}
+
+.mock-body {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  width: 100%;
+}
+
+.mock-iframe {
+  width: 100%
+}

@@ -1,0 +1,105 @@
+.widget-container {
+  background-color: white;
+  flex: 1;
+  padding: 1em;
+  flex-wrap: column;
+  height: 100%;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 6px, rgba(0, 0, 0, 0.12) 0px 1px 4px;
+}
+
+@page {
+  size: A4 auto;
+  margin: 3mm;
+}
+
+@media print { a[href]:after { content: none !important; } }
+
+.print-view {
+  width: 1024px;
+  min-height: 700px;
+  overflow: visible;
+  display: block;
+  page-break-inside: avoid;
+}
+
+.watermark {
+  height: 33px;
+  width: 100px;
+  position: fixed;
+  bottom: 3px;
+  right: 3px;
+  display: table-footer-group;
+}
+
+.widget-header {
+  font-size: 2em;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  /* margin-bottom: .5em; */
+}
+
+.widget-group-name {
+  font-size: .67em;
+}
+
+.print-header {
+  flex-direction: column;
+  align-items: center;
+}
+
+.widget-btns {
+  font-size: .6em;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: .2em;
+}
+
+.widget-title {
+  margin-left: .7em;
+  font-size: .8em;
+  align-self: flex-start;
+}
+
+.header-label {
+  margin-right: .7em;
+}
+
+.widget-settings-icon {
+  border: none;
+  margin: .2em;
+}
+
+.widget-settings-icon:hover {
+  cursor: pointer;
+}
+
+.widget-settings-icon:focus {
+  outline: none;
+}
+
+.widget-body {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: stretch;
+  height: 80%;
+}
+
+.fullscreen .widget-body {
+  height: 85%
+}
+
+.widget-dates {
+  font-size: .55em;
+  margin-bottom: .1em;
+  display: flex;
+}
+
+.widget-start-date {
+
+}
+
+.widget-end-date {
+
+}

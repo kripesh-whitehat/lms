@@ -1,0 +1,26 @@
+.table-filter-container {
+}
+
+.table-filter-options {
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 6px, rgba(0, 0, 0, 0.12) 0px 1px 4px;
+  text-align: left;
+  flex-direction: column;
+  padding: 1em;
+  background-color: white;
+  z-index: 1;
+}
+
+ .table-filter-option-container {
+   padding: .3em;
+   display: flex;
+   flex-direction: row;
+   align-items: flex-end;
+ }
+
+.table-filter-option-checkbox {
+  margin-bottom: 1em;
+}
+
+.table-filter-option-label {
+  margin-left: 0.75em;
+}

@@ -1,0 +1,19 @@
+.corner-titles {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 1.25em;
+  font-weight: bold;
+  margin-left: 4.2em;
+  width: 260px
+
+}
+
+/* .corner-titles.corner-bottom {
+  margin-top: -1.2em
+} */
+
+.fullscreen .corner-titles {
+  margin-left: 5em;
+  width: 86%;
+}

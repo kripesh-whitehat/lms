@@ -1,0 +1,41 @@
+/* .backdrop {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0,0,0,0.3);
+  padding: 50;
+}
+
+.dialog {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #fff;
+  width: 40em;
+  height: 25em;
+  margin: auto;
+  margin-top: 15%;
+  padding: 30px;
+  padding-top: 10px;
+}
+
+.dialog-header {
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.dialog-title {
+  font-size: 1.5em;
+  align-self: center;
+}
+
+.dialog-footer {
+  align-self: flex-end;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+} */

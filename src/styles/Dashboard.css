@@ -1,0 +1,32 @@
+.dashboard-container {
+  flex: 5 1;
+}
+.dashboard-drop-container {
+  height: 100vh;
+  padding-bottom: 0.8rem;
+}
+
+.general-error {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 2em;
+}
+
+#error-icon {
+  font-size: 3em;
+  margin-bottom: 0.5em;
+}
+
+body .main-wrap {
+  position: relative;
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  background-color: RGBA(58, 65, 80, 1);
+}
+body .main-wrap {
+  background-color: #3a4150;
+}
